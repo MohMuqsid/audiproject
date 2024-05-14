@@ -1,0 +1,537 @@
+body{
+    margin: 0;
+    font-family: 'Audi Type', sans-serif;
+}
+
+/* navigation-bar */
+
+.nav-bar{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: 60px;
+    background-color: #ffffff;
+}
+
+.audi-logo{
+    margin-bottom: 8px;
+    margin-left: 80px;
+    background-image: url(./images/audilogo.jpg);
+    background-size: contain;
+    height: 32px;
+    width: 60px;
+}
+.audi-logo:hover{
+    cursor: pointer;
+}
+button{
+    cursor: pointer;
+}
+.boxes{
+    color: #666666;
+    width: 79%;
+    display: flex;
+    justify-content: start;
+}
+
+.boxes p{
+    margin-left: 18px;
+    font-size: .85rem;
+}
+.boxes p:hover{
+    color: #b3b3b3;
+    cursor: pointer;
+}
+
+/* hero */
+
+.hero-section{
+    display: flex;
+    justify-content: start;
+    padding-left: 50px;
+    height: 525px;
+    background-image: url(./images/audioheroimage.jpg);
+    background-size: cover;
+    text-shadow : .5px .5px 1px black;
+}
+
+.hero-heading{  
+    width: 630px;
+    text-align:start;
+    font-size: 38px;
+    color: #ffffff;
+    letter-spacing: 0.6px;
+    margin-bottom: 0;
+}
+
+.hero-text{
+    position: absolute ;
+}
+
+.text1{
+    margin-top: 0;
+    color: #e5e5e5;
+    margin-bottom :0px; 
+    margin-top: 0px;
+    margin-bottom: 16px;
+}
+
+.text2{
+    font-size: 1.1rem;
+    font-weight: bolder;
+    color: #e5e5e5;
+}
+ 
+.hero-button{
+    display: flex;
+    height: 45px;
+}
+
+#hero-button1{
+    width: 190px;
+    background-color: #ffffff;
+    border: 1px solid transparent;
+   
+}
+#hero-button1:hover{
+    cursor: pointer;
+    background-color: #b3b3b3;
+}
+
+#hero-button2{
+    margin-left: 3px;
+    width: 270px;
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+}
+#hero-button2:hover{
+    border-color: #b3b3b3;
+    color: #b3b3b3;
+}
+
+/* panel1 */
+
+.panel1{
+    color: #000000;
+}
+
+.panel1 a{
+    color: #000000;
+    text-decoration: none;
+}
+.panel1 a :hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#model{
+    margin-left: 50px;
+    margin-top: 40px;
+    line-height: 5px;
+    font-size: 14px;
+    text-decoration: underline;
+    margin-bottom: 30px;
+}
+
+.boxess{
+    margin-left: 0;
+    display: flex;
+   justify-content: space-around;
+}
+.box{
+    text-align: center;
+    height: 168px;
+    width: 168px;
+    font-size: 0.85rem;
+}
+img{
+    height: 75px;
+    width: 170px;
+}
+.boxess img:hover{
+    transform: scale(1.2);
+    transition-duration: .5s;
+    transition-timing-function: ease-in-out;
+    cursor: pointer;
+}
+.box :hover{
+    text-decoration: underline;
+}
+
+/* virtual-showroom */
+
+.virtual-showroom{
+    padding-top: 35px;
+    margin-left: 145px;
+    height: 620px;
+    display: flex;
+    align-items: center;
+}
+
+.virtual-showroom img{
+    margin-top: 5px;
+    height: 460px;
+    width: 460px;
+}
+
+.virtual-showroom-text{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    margin-bottom: 5px;;
+    text-align: center;
+}
+
+.virtual-showroom-text button{
+    background-color: transparent;
+    border: 1px solid #000000;
+    margin-left: 10px;
+    height: 45px;
+    width: 200px;
+}
+.virtual-showroom-text button:hover{
+    border-color: #4c4c4c;
+    color: #4c4c4c;
+}
+
+/* e-tronhub */
+
+.e-tron-hub{
+    display: flex;        
+    height: 1300px;
+    background-image: url(./images/E-tronHub2.jpg);
+    background-size: cover;
+    color: #333333;
+}
+.e-tron-hubtext{
+    padding-left: 40px;
+    margin-top: 320px;
+    margin-left: 50px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    background-color: #ffffff;
+    width: 520px;
+    height: 270px;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.button1{
+        margin-top: 15px;
+    width: 120px;
+    height: 40px;
+    background-color: #000000;
+    color: #ffffff;
+    border: 1px solid transparent;
+}
+.button1:hover{
+    background-color: #4c4c4c;
+}
+.button2{
+    height: 40px;
+    color: #000000;
+    width: 180px;
+    background-color: transparent;
+    border: 1px solid #000000;
+}
+.button2:hover{
+    color: #4c4c4c;
+    border-color: #4c4c4c;
+}
+
+/* augmented reality */
+
+.augment-reality{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 900px;
+}
+.aug-box{
+    display: flex;
+    height: 460px;
+    width: 925px;
+}
+.aug-box img{
+    width: 50%;
+    height:445px ;
+}
+.augment-text{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content:center ;
+    margin-left: 40px;
+}
+.augment-text h1{
+    letter-spacing: 6px;
+    font-weight: 500;
+}
+.augment-text .button2{
+    width: 150px;
+    margin-left: -3px;
+    margin-right: 100px;
+}
+
+/* dealerlocator*/
+
+
+.dealer-locator{
+    display: flex;
+    height: 450px;
+}
+
+.dealer-locator img{
+    width: 66%;
+    height: 100%;
+}
+.dealer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 34%;
+    background-color: #000000;
+    color: #ffffff;
+}
+.dealer .button2{
+    margin-right: 120px;
+    width: 190px;
+    margin-top: 300px; 
+    border-color: #ffffff;
+    color: #ffffff;
+}
+
+.dealer .button2:hover{
+    border-color: #666666;
+    color: #666666;
+}
+.dealer h1{
+    letter-spacing: 4px;
+}
+
+/* audi-connect  */
+
+.audi-connect{
+    margin-top: 100px;
+    display: flex;
+    height: 800px;
+}
+
+.audi-connect img{
+    /* margin-left: 200px; */
+    width: 45%;
+    height: 100%;
+}
+
+.connect-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    width: 55%;
+    background-color: #000000;
+    color: #ffffff;
+    padding-left: 40px;
+}
+
+.connect-text .button2{
+    height: 45px;
+    border-color: #ffffff;
+    color: #ffffff;
+    margin-bottom: 37px;
+}
+
+.cnctbtn1{
+    width: 148px;
+}
+
+.cnctbtn2{
+    width: 120px;
+}
+
+.connect-text .button2:hover{
+    border-color: #666666;
+    color: #666666;
+}
+
+.connect-text h1{
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+.connect-text span{
+    font-weight:bold ;
+}
+
+/* audi waiting  */
+
+.audi-wait{
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.audi-waiting{
+    width: 1100px;
+    height: 350px;
+}
+
+.wait-boxes{
+    display: flex;
+    justify-content: space-around;
+}
+
+.wait-boxes img{
+    width: 360px;
+    height: 200px;
+
+}
+
+.wait-boxes img:hover{
+    cursor: pointer;
+}
+
+.audi-waiting  h1{
+    letter-spacing: 3px;
+}
+
+.wait-boxes p,a {
+    font-size: 13.5px;
+}
+
+.wait-boxes a{
+    font-weight: 700;
+    text-decoration: none;
+    color: #000000;
+    margin-bottom: 40px;
+}
+
+.wait-boxes a:hover{
+    color: #4c4c4c;
+}
+
+/* footer */
+
+footer{
+    margin-top: 100px;
+    height: 700px;
+    background-color: #000000;
+}
+
+.backtotop{
+    height: 60px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 65px;
+}
+
+.backtotop a{
+    color: #ffffff;
+    font-size: 11px;
+}
+
+.backtotop a:hover{
+    color: #4c4c4c;
+    cursor: pointer;
+}
+
+.footer-menu{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    color: #ffffff;
+}
+.footer-menus{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: #ffffff; */
+    height: 300px;
+    width: 1050px;
+}
+
+.foot-models{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.foot-models h4{
+    font-size: 18px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.foot-models li{
+    font-size: 11px;
+    margin-bottom: 10px;
+}
+
+.foot-models li:hover{
+    color: #4c4c4c;
+    cursor: pointer;
+}
+
+li{
+    list-style: none;
+}
+
+.foot-socials{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 40px;
+    width: 1050px;
+    border-bottom: 1px solid white;
+}
+
+.foot-socials i{
+    padding-top: 10px;
+    text-align: center;
+    margin-left: 40px;
+    height: 25px;
+    width: 30px;
+}
+
+.foot-socials i:hover{
+    background-color: #4c4c4c;
+}
+
+.footcopyright{
+    width: 1050px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    font-size: 11px;
+}
+
+.footcopyright p{
+    font-weight: 400;
+    margin-right: 25px ;
+}
+.footcopyright li{
+    cursor: pointer;
+    margin-right: 15px ;
+}
+
+.footcopyright li:hover{
+    color: #666666;
+}
+
+.foot-para{
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    width: 1050px;
+    font-size: 10px;
+    line-height: 20px;
+}
